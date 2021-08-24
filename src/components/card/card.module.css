@@ -1,0 +1,11 @@
+.container{
+    position: relative;
+    top:20vh;
+    width: 60vw;
+    margin: auto;
+}
+@media(max-width:768px){
+    .container{
+        width: 80vw;
+    }
+}

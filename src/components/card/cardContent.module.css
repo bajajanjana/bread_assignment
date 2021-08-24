@@ -1,0 +1,79 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.div1 button{
+    border-radius: 20px;
+}
+.context{
+    flex-grow:2;
+}
+.flex1{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    /* flex-basis: content; */
+}
+.flex1 button{
+    margin: 5px 10px;
+    padding: 2px 16px;
+}
+.flex2{
+    display: flex;
+    flex-direction: column;
+}
+.flex2 button{
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.div2 h2{
+    margin-top: 8px;
+}
+.div2 p{
+    text-align:justify;
+}
+.icon a{
+    color: black;
+    padding-right: 4px ;
+}
+.icon button{
+    border-radius: 20px;
+    margin: 5px;
+    padding: 2px 10px;
+    background-color: lightgray;
+    border: none;
+}
+.div4{
+    display: flex;
+    flex-direction: row;
+}
+.div4 h4{
+    margin-top: 20px;
+    text-align: left;
+}
+.div4 span{
+    margin: 20px 0px;
+    margin-bottom: 20px;
+    color: royalblue;
+}
+.div5 input{
+    display: inline;
+}
+@media(max-width:768px){
+    .flex1{
+        flex-direction: column;
+    }
+    .div4{
+        display: flex;
+        flex-direction: column;
+    }
+    .div4 span{
+       display: none;
+    }
+}
