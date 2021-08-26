@@ -31,7 +31,10 @@
     /* .container div{
         margin-bottom: 20px;
     } */
-    
+    .div1 h4{
+        font-size: small;
+        margin: auto;
+    }
     .div2{
         flex-direction: row;
         justify-content: space-between;
