@@ -1,8 +1,12 @@
 .container{
     position: relative;
-    top:20vh;
+    top:10vh;
     width: 60vw;
     margin: auto;
+    z-index: 3;
+    border: 8px solid royalblue;
+    outline: 1px solid #f4f4f4;
+    border-radius: 5px;
 }
 @media(max-width:768px){
     .container{

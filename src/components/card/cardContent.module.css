@@ -10,6 +10,7 @@
 }
 .div1 button{
     border-radius: 20px;
+    border: 1px solid black;
 }
 .context{
     flex-grow:2;
@@ -31,6 +32,11 @@
 .flex2 button{
     margin-bottom: 10px;
     border-radius: 5px;
+    border: 1px solid black;
+}
+.btn1{
+    background-color: royalblue;
+    color: #f4f4f4;
 }
 .div2 h2{
     margin-top: 8px;
@@ -53,6 +59,9 @@
     display: flex;
     flex-direction: row;
 }
+.div4 div{
+    flex: 1;
+}
 .div4 h4{
     margin-top: 20px;
     text-align: left;
@@ -62,12 +71,45 @@
     margin-bottom: 20px;
     color: royalblue;
 }
-.div5 input{
-    display: inline;
+.image{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+.div5 form{
+    margin-top: 20px;
+    border: 1px solid royalblue;
+    border-radius:5px;
+    padding:20px 20px;
+}
+.div51{
+    display: flex;
+    flex-direction: row;
+}
+.div51 input{
+    width: 80%;
+    
+}
+
+.div51 button{
+    width: 20%;
+    margin-left: 10px;
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid gray;
 }
 @media(max-width:768px){
     .flex1{
         flex-direction: column;
+    }
+    .flex1 button{
+       width: 40%;
+       margin: 5px 10px;
+      padding: 4px 6px;
+      font-size: x-small;
     }
     .div4{
         display: flex;
@@ -75,5 +117,14 @@
     }
     .div4 span{
        display: none;
+    }
+    .div4 div{
+        margin:5px
+    }
+    .div51 input{
+        width: 60%;
+    }
+    .div51 button{
+        width: 40%;
     }
 }

@@ -19,7 +19,7 @@ function CardContent() {
         </div>
         <div className={classes.buttons}>
           <div className={classes.flex2}>
-            <button>Book Trial</button>
+            <button className={classes.btn1}>Book Trial</button>
             <button>Contact me</button>
           </div>
         </div>
@@ -54,13 +54,16 @@ function CardContent() {
           <span><strong>Contact me <i class="fas fa-arrow-right"></i></strong></span>
         </div>
         <div>
-          <img src={videoimg} width="350px" height="200px"></img>
+          <img src={videoimg} className={classes.image}></img>
         </div>
       </div>
       <div className={classes.div5}>
         <form>
+          <p><strong>Subscribe to my profile and never miss any update from me.</strong></p>
+          <div className={classes.div51}>
            <input type="email" placeholder="Enter your Email" className="form-control"></input>
            <button type="submit">Subscribe</button>
+          </div>
         </form>
       </div>
     </div>
