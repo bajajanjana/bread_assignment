@@ -46,7 +46,7 @@ function ImageSlider() {
     <Slider {...settings}>
       <div className="card-wrapper">
         <div className="card">
-          <div className="card-image">
+          <div className="card-image slide1">
             {/* <img src={image}/> */}
             <div className="details">
               <button>Live</button>
@@ -58,7 +58,7 @@ function ImageSlider() {
       </div>
       <div className="card-wrapper">
         <div className="card">
-          <div className="card-image">
+          <div className="card-image slide2">
           {/* <img src={image}/> */}
             <div className="details">
               <button>Live</button>
@@ -70,7 +70,7 @@ function ImageSlider() {
       </div>
       <div className="card-wrapper">
         <div className="card">
-          <div className="card-image">
+          <div className="card-image slide3">
           {/* <img src={image}/> */}
             <div className="details">
               <button>Live</button>
@@ -82,7 +82,7 @@ function ImageSlider() {
       </div>
       <div className="card-wrapper">
         <div className="card">
-          <div className="card-image">
+          <div className="card-image slide4">
           {/* <img src={image}/> */}
             <div className="details">
               <button>Live</button>
