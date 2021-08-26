@@ -155,5 +155,7 @@
   @media(max-width:768px){
     .card-wrapper  .card{
       margin: auto;
+      width: 300px;
+      height: 200px;
     }
   }
