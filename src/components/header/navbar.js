@@ -4,7 +4,7 @@ function Navbar() {
     <div>
       <nav className="navbar navbar-expand-sm navbar-dark">
         <div className="container ">
-          <a className="navbar-brand text-light">bread/jane</a>
+          <a className="navbar-brand text-light"><strong>bread/jane</strong></a>
           <button
             className="navbar-toggler"
             type="button"
@@ -17,7 +17,7 @@ function Navbar() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav">
+            <ul className="navbar-nav ms-auto ">
               <li className="nav-item text-light">
                 <a className="nav-link text-light">Offerings</a>
               </li>
