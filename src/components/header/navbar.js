@@ -19,19 +19,19 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto ">
               <li className="nav-item text-light">
-                <a className="nav-link text-light">Offerings</a>
+                <a className="nav-link text-light" href="#">Offerings</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-light">Links</a>
+                <a className="nav-link text-light" href="#">Links</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-light">Testimonials</a>
+                <a className="nav-link text-light" href="#">Testimonials</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-light">Portfolio</a>
+                <a className="nav-link text-light" href="#">Portfolio</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-light">Contact me</a>
+                <a className="nav-link text-light" href="#">Contact me</a>
               </li>
               <button className={classes.button}>Book Trial</button>
             </ul>

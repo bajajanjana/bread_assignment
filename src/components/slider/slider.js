@@ -25,6 +25,13 @@ function ImageSlider() {
         }
       },
       {
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 3
+        }
+      },
+      {
         breakpoint: 600,
         settings: {
           slidesToShow: 1,
