@@ -10,6 +10,11 @@
     color: #f4f4f4;
     text-align: justify;
     padding-top: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+h1{
+    text-align: justify;
+    margin: auto;
 }

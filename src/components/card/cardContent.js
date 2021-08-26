@@ -50,7 +50,7 @@ function CardContent() {
       </div>
       <div className={classes.div4}>
         <div>
-          <h4>Check out my video  about 30 min yoga for beginners</h4>
+          <h4><strong>Check out my video  about 30 min yoga for beginners</strong></h4>
           <span><strong>Contact me <i class="fas fa-arrow-right"></i></strong></span>
         </div>
         <div>
